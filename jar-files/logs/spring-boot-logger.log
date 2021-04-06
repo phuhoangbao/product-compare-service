@@ -1,0 +1,369 @@
+2021-04-07 00:20:11,788 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-3] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 087579f7-f97a-40ae-aa73-fdf1b33f5955
+[PATH]: /api/v1/products
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+---referer : https://localhost:8443/api/v1/
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:11,797 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-2] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: e0ce90c0-7444-4fa1-ae34-16e107a594a7
+[PATH]: /api/v1/product-review/2
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+---referer : https://localhost:8443/api/v1/product-review/
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:11,797 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-4] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 9326ba54-b80a-413a-adbd-a79c0096e267
+[PATH]: /api/v1/product/3
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+---referer : https://localhost:8443/api/v1/product/
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:11,792 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-10] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 7e54b352-b167-4626-b745-9ebf7bf22b63
+[PATH]: /api/v1/product/1
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+---referer : https://localhost:8443/api/v1/product/
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:11,831 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-2] Before request [GET /api/v1/product-review/2]
+2021-04-07 00:20:11,791 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-5] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 8ed3040e-0812-4ecd-8f69-eaac5f60ce62
+[PATH]: /api/v1/product/2
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+---referer : https://localhost:8443/api/v1/product/
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:11,829 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-3] Before request [GET /api/v1/products]
+2021-04-07 00:20:11,831 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-4] Before request [GET /api/v1/product/3]
+2021-04-07 00:20:11,794 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-1] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 3c79b4eb-4a3d-4bf4-9858-9ae33030187d
+[PATH]: /api/v1/product-review/1
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+---referer : https://localhost:8443/api/v1/product-review/
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:11,832 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-10] Before request [GET /api/v1/product/1]
+2021-04-07 00:20:11,833 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-10] GET "/api/v1/product/1", parameters={}
+2021-04-07 00:20:11,835 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-10] Mapped to com.nba.controllers.ProductController#getProductById(String)
+2021-04-07 00:20:11,835 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-2] GET "/api/v1/product-review/2", parameters={}
+2021-04-07 00:20:11,835 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-5] Before request [GET /api/v1/product/2]
+2021-04-07 00:20:11,836 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-2] Mapped to com.nba.controllers.ProductController#getProductReview(String)
+2021-04-07 00:20:11,840 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-3] GET "/api/v1/products", parameters={}
+2021-04-07 00:20:11,841 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-4] GET "/api/v1/product/3", parameters={}
+2021-04-07 00:20:11,842 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-1] Before request [GET /api/v1/product-review/1]
+2021-04-07 00:20:11,842 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-1] GET "/api/v1/product-review/1", parameters={}
+2021-04-07 00:20:11,843 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-1] Mapped to com.nba.controllers.ProductController#getProductReview(String)
+2021-04-07 00:20:11,845 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-5] GET "/api/v1/product/2", parameters={}
+2021-04-07 00:20:11,848 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-5] Mapped to com.nba.controllers.ProductController#getProductById(String)
+2021-04-07 00:20:11,848 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-3] Mapped to com.nba.controllers.ProductController#getProducts()
+2021-04-07 00:20:11,850 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-4] Mapped to com.nba.controllers.ProductController#getProductById(String)
+2021-04-07 00:20:11,860 DEBUG o.s.w.s.h.AbstractHandlerExceptionResolver:145 [https-jsse-nio-8443-exec-3] Resolved [org.springframework.web.server.ResponseStatusException: 429 TOO_MANY_REQUESTS "Too Many Requests in 1 Minute. Please update your pricing plan"]
+2021-04-07 00:20:11,861 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-3] Completed 429 TOO_MANY_REQUESTS
+2021-04-07 00:20:11,862 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-3] REQUEST DATA : GET /api/v1/products]
+2021-04-07 00:20:11,870 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-3] "ERROR" dispatch for GET "/error", parameters={}
+2021-04-07 00:20:11,870 DEBUG o.s.c.l.CompositeLog:147 [https-jsse-nio-8443-exec-2] HTTP GET https://localhost:8444/api/v1/product-review/2
+2021-04-07 00:20:11,872 DEBUG o.s.c.l.CompositeLog:147 [https-jsse-nio-8443-exec-2] Accept=[text/plain, application/json, application/*+json, */*]
+2021-04-07 00:20:11,873 DEBUG o.s.c.l.CompositeLog:147 [https-jsse-nio-8443-exec-1] HTTP GET https://localhost:8444/api/v1/product-review/1
+2021-04-07 00:20:11,874 DEBUG o.s.c.l.CompositeLog:147 [https-jsse-nio-8443-exec-1] Accept=[text/plain, application/json, application/*+json, */*]
+2021-04-07 00:20:11,875 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-3] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-04-07 00:20:11,946 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-7] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: f009808f-77f8-4bc6-9fa4-c423ed8e9535
+[PATH]: /api/v1/product-review/3
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+---referer : https://localhost:8443/api/v1/product-review/
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:11,944 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:11,953 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-7] Before request [GET /api/v1/product-review/3]
+2021-04-07 00:20:11,958 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-7] GET "/api/v1/product-review/3", parameters={}
+2021-04-07 00:20:11,959 DEBUG o.s.c.l.CompositeLog:147 [https-jsse-nio-8443-exec-1] Response 200 OK
+2021-04-07 00:20:11,960 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-7] Mapped to com.nba.controllers.ProductController#getProductReview(String)
+2021-04-07 00:20:11,961 DEBUG o.s.c.l.CompositeLog:147 [https-jsse-nio-8443-exec-2] Response 200 OK
+2021-04-07 00:20:11,962 DEBUG o.s.c.l.CompositeLog:147 [https-jsse-nio-8443-exec-1] Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2021-04-07 00:20:11,962 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-3] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: 087579f7-f97a-40ae-aa73-fdf1b33f5955
+[BODY RESPONSE]: 
+
+{"timestamp":"Apr 7, 2021 12:20:11 AM","status":429,"error":"Too Many Requests","message":"","path":"/api/v1/products"}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:11,964 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-1] Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:11,965 DEBUG o.s.c.l.CompositeLog:147 [https-jsse-nio-8443-exec-2] Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2021-04-07 00:20:11,965 DEBUG o.s.w.s.h.AbstractHandlerExceptionResolver:145 [https-jsse-nio-8443-exec-7] Resolved [org.springframework.web.server.ResponseStatusException: 429 TOO_MANY_REQUESTS "Too Many Requests in 1 Minute. Please update your pricing plan"]
+2021-04-07 00:20:11,966 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-2] Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:11,967 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-1] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: 3c79b4eb-4a3d-4bf4-9858-9ae33030187d
+[BODY RESPONSE]: 
+
+"This product is good"
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:11,967 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-3] Writing [{timestamp=Wed Apr 07 00:20:11 ICT 2021, status=429, error=Too Many Requests, message=, path=/api/v1 (truncated)...]
+2021-04-07 00:20:11,968 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-1] Writing ["This product is good"]
+2021-04-07 00:20:11,968 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-7] Completed 429 TOO_MANY_REQUESTS
+2021-04-07 00:20:11,969 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-2] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: e0ce90c0-7444-4fa1-ae34-16e107a594a7
+[BODY RESPONSE]: 
+
+"This product is not good"
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:11,971 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-1] Completed 200 OK
+2021-04-07 00:20:11,971 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-2] Writing ["This product is not good"]
+2021-04-07 00:20:11,971 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-7] REQUEST DATA : GET /api/v1/product-review/3]
+2021-04-07 00:20:11,973 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-1] REQUEST DATA : GET /api/v1/product-review/1]
+2021-04-07 00:20:11,974 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-2] Completed 200 OK
+2021-04-07 00:20:11,975 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-2] REQUEST DATA : GET /api/v1/product-review/2]
+2021-04-07 00:20:11,984 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-7] "ERROR" dispatch for GET "/error", parameters={}
+2021-04-07 00:20:11,987 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-7] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-04-07 00:20:11,993 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:11,996 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-7] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: f009808f-77f8-4bc6-9fa4-c423ed8e9535
+[BODY RESPONSE]: 
+
+{"timestamp":"Apr 7, 2021 12:20:11 AM","status":429,"error":"Too Many Requests","message":"","path":"/api/v1/product-review/3"}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:11,998 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-7] Writing [{timestamp=Wed Apr 07 00:20:11 ICT 2021, status=429, error=Too Many Requests, message=, path=/api/v1 (truncated)...]
+2021-04-07 00:20:12,047 DEBUG o.s.w.s.FrameworkServlet:1127 [https-jsse-nio-8443-exec-3] Exiting from "ERROR" dispatch, status 429
+2021-04-07 00:20:12,047 DEBUG o.s.w.s.FrameworkServlet:1127 [https-jsse-nio-8443-exec-7] Exiting from "ERROR" dispatch, status 429
+2021-04-07 00:20:12,067 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-9] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: ba9829bc-329c-444b-b9f9-8b45c78fe4e2
+[PATH]: /api/v1/product-review/3
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:12,067 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-6] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: c9404855-7f3e-43d2-8c18-e6d944ca6b00
+[PATH]: /api/v1/products
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:12,068 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-9] Before request [GET /api/v1/product-review/3]
+2021-04-07 00:20:12,069 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-6] Before request [GET /api/v1/products]
+2021-04-07 00:20:12,069 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-9] GET "/api/v1/product-review/3", parameters={}
+2021-04-07 00:20:12,070 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-6] GET "/api/v1/products", parameters={}
+2021-04-07 00:20:12,070 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-6] Mapped to com.nba.controllers.ProductController#getProducts()
+2021-04-07 00:20:12,070 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-9] Mapped to com.nba.controllers.ProductController#getProductReview(String)
+2021-04-07 00:20:12,071 DEBUG o.s.w.s.h.AbstractHandlerExceptionResolver:145 [https-jsse-nio-8443-exec-6] Resolved [org.springframework.web.server.ResponseStatusException: 429 TOO_MANY_REQUESTS "Too Many Requests in 1 Minute. Please update your pricing plan"]
+2021-04-07 00:20:12,071 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-6] Completed 429 TOO_MANY_REQUESTS
+2021-04-07 00:20:12,072 DEBUG o.s.w.s.h.AbstractHandlerExceptionResolver:145 [https-jsse-nio-8443-exec-9] Resolved [org.springframework.web.server.ResponseStatusException: 429 TOO_MANY_REQUESTS "Too Many Requests in 1 Minute. Please update your pricing plan"]
+2021-04-07 00:20:12,072 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-6] REQUEST DATA : GET /api/v1/products]
+2021-04-07 00:20:12,072 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-9] Completed 429 TOO_MANY_REQUESTS
+2021-04-07 00:20:12,073 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-6] "ERROR" dispatch for GET "/error", parameters={}
+2021-04-07 00:20:12,073 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-9] REQUEST DATA : GET /api/v1/product-review/3]
+2021-04-07 00:20:12,074 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-6] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-04-07 00:20:12,075 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-9] "ERROR" dispatch for GET "/error", parameters={}
+2021-04-07 00:20:12,076 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:12,076 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-9] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-04-07 00:20:12,077 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:12,077 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-6] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: c9404855-7f3e-43d2-8c18-e6d944ca6b00
+[BODY RESPONSE]: 
+
+{"timestamp":"Apr 7, 2021 12:20:12 AM","status":429,"error":"Too Many Requests","message":"","path":"/api/v1/products"}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:12,078 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-9] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: ba9829bc-329c-444b-b9f9-8b45c78fe4e2
+[BODY RESPONSE]: 
+
+{"timestamp":"Apr 7, 2021 12:20:12 AM","status":429,"error":"Too Many Requests","message":"","path":"/api/v1/product-review/3"}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:12,078 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-6] Writing [{timestamp=Wed Apr 07 00:20:12 ICT 2021, status=429, error=Too Many Requests, message=, path=/api/v1 (truncated)...]
+2021-04-07 00:20:12,080 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-9] Writing [{timestamp=Wed Apr 07 00:20:12 ICT 2021, status=429, error=Too Many Requests, message=, path=/api/v1 (truncated)...]
+2021-04-07 00:20:12,080 DEBUG o.s.w.s.FrameworkServlet:1127 [https-jsse-nio-8443-exec-6] Exiting from "ERROR" dispatch, status 429
+2021-04-07 00:20:12,083 DEBUG o.s.w.s.FrameworkServlet:1127 [https-jsse-nio-8443-exec-9] Exiting from "ERROR" dispatch, status 429
+2021-04-07 00:20:12,109 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-7] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: d47e2c45-3e60-429d-8ea3-dd1ce5968f0b
+[PATH]: /api/v1/products
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:12,109 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-7] Before request [GET /api/v1/products]
+2021-04-07 00:20:12,110 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-7] GET "/api/v1/products", parameters={}
+2021-04-07 00:20:12,111 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-7] Mapped to com.nba.controllers.ProductController#getProducts()
+2021-04-07 00:20:12,111 DEBUG o.s.w.s.h.AbstractHandlerExceptionResolver:145 [https-jsse-nio-8443-exec-7] Resolved [org.springframework.web.server.ResponseStatusException: 429 TOO_MANY_REQUESTS "Too Many Requests in 1 Minute. Please update your pricing plan"]
+2021-04-07 00:20:12,112 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-7] Completed 429 TOO_MANY_REQUESTS
+2021-04-07 00:20:12,112 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-7] REQUEST DATA : GET /api/v1/products]
+2021-04-07 00:20:12,114 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-7] "ERROR" dispatch for GET "/error", parameters={}
+2021-04-07 00:20:12,117 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-7] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-04-07 00:20:12,120 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:12,120 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-7] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: d47e2c45-3e60-429d-8ea3-dd1ce5968f0b
+[BODY RESPONSE]: 
+
+{"timestamp":"Apr 7, 2021 12:20:12 AM","status":429,"error":"Too Many Requests","message":"","path":"/api/v1/products"}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:12,121 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-7] Writing [{timestamp=Wed Apr 07 00:20:12 ICT 2021, status=429, error=Too Many Requests, message=, path=/api/v1 (truncated)...]
+2021-04-07 00:20:12,123 DEBUG o.s.w.s.FrameworkServlet:1127 [https-jsse-nio-8443-exec-7] Exiting from "ERROR" dispatch, status 429
+2021-04-07 00:20:12,145 INFO c.n.l.CustomURLFilter:51 [https-jsse-nio-8443-exec-1] 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 30cbc1e9-73e9-444e-a0f6-2a7fc3b3acd8
+[PATH]: /api/v1/product-review/3
+[QUERIES]: null
+[HEADERS]: 
+---user-agent : Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+---host : localhost:8443
+---accept : */*
+---accept-encoding : identity
+---accept-language : en-US
+---accept-charset : *
+LOGGING REQUEST-----------------------------------
+
+2021-04-07 00:20:12,148 DEBUG o.s.w.f.CommonsRequestLoggingFilter:47 [https-jsse-nio-8443-exec-1] Before request [GET /api/v1/product-review/3]
+2021-04-07 00:20:12,149 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-1] GET "/api/v1/product-review/3", parameters={}
+2021-04-07 00:20:12,151 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-1] Mapped to com.nba.controllers.ProductController#getProductReview(String)
+2021-04-07 00:20:12,152 DEBUG o.s.w.s.h.AbstractHandlerExceptionResolver:145 [https-jsse-nio-8443-exec-1] Resolved [org.springframework.web.server.ResponseStatusException: 429 TOO_MANY_REQUESTS "Too Many Requests in 1 Minute. Please update your pricing plan"]
+2021-04-07 00:20:12,155 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-1] Completed 429 TOO_MANY_REQUESTS
+2021-04-07 00:20:12,155 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-1] REQUEST DATA : GET /api/v1/product-review/3]
+2021-04-07 00:20:12,156 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-1] "ERROR" dispatch for GET "/error", parameters={}
+2021-04-07 00:20:12,157 DEBUG o.s.w.s.h.AbstractHandlerMapping:522 [https-jsse-nio-8443-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-04-07 00:20:12,158 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:12,159 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-1] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: 30cbc1e9-73e9-444e-a0f6-2a7fc3b3acd8
+[BODY RESPONSE]: 
+
+{"timestamp":"Apr 7, 2021 12:20:12 AM","status":429,"error":"Too Many Requests","message":"","path":"/api/v1/product-review/3"}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:12,160 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-1] Writing [{timestamp=Wed Apr 07 00:20:12 ICT 2021, status=429, error=Too Many Requests, message=, path=/api/v1 (truncated)...]
+2021-04-07 00:20:12,161 DEBUG o.s.w.s.FrameworkServlet:1127 [https-jsse-nio-8443-exec-1] Exiting from "ERROR" dispatch, status 429
+2021-04-07 00:20:17,232 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:17,232 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:17,232 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor:268 [https-jsse-nio-8443-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 00:20:17,252 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-10] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: 7e54b352-b167-4626-b745-9ebf7bf22b63
+[BODY RESPONSE]: 
+
+{"id":"1","name":"Scissors","priceCompare":[{"price":90,"source":"Shopee","discountAmount":1.5,"productImageUrl":"http://product-image/shopee"},{"price":89,"source":"Lazada","discountAmount":0.0,"productImageUrl":"http://product-image/lazada"},{"price":88,"source":"Amazon","discountAmount":0.5,"productImageUrl":"http://product-image/amazon"}]}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:17,252 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-5] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: 8ed3040e-0812-4ecd-8f69-eaac5f60ce62
+[BODY RESPONSE]: 
+
+{"id":"2","name":"Paper","priceCompare":[{"price":90,"source":"Shopee","discountAmount":1.5,"productImageUrl":"http://product-image/shopee"},{"price":89,"source":"Lazada","discountAmount":0.0,"productImageUrl":"http://product-image/lazada"},{"price":88,"source":"Amazon","discountAmount":0.5,"productImageUrl":"http://product-image/amazon"}]}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:17,253 INFO c.n.l.s.LoggingService:44 [https-jsse-nio-8443-exec-4] 
+LOGGING RESPONSE-----------------------------------
+[REQUEST-ID]: 9326ba54-b80a-413a-adbd-a79c0096e267
+[BODY RESPONSE]: 
+
+{"id":"3","name":"Rock","priceCompare":[{"price":90,"source":"Shopee","discountAmount":1.5,"productImageUrl":"http://product-image/shopee"},{"price":89,"source":"Lazada","discountAmount":0.0,"productImageUrl":"http://product-image/lazada"},{"price":88,"source":"Amazon","discountAmount":0.5,"productImageUrl":"http://product-image/amazon"}]}
+
+LOGGING RESPONSE-----------------------------------
+
+2021-04-07 00:20:17,256 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-10] Writing [Product(id=1, name=Scissors, priceCompare=[PriceCompare(price=90, source=Shopee, discountAmount=1.5, (truncated)...]
+2021-04-07 00:20:17,259 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-5] Writing [Product(id=2, name=Paper, priceCompare=[PriceCompare(price=90, source=Shopee, discountAmount=1.5, pr (truncated)...]
+2021-04-07 00:20:17,259 DEBUG o.s.c.l.LogFormatUtils:91 [https-jsse-nio-8443-exec-4] Writing [Product(id=3, name=Rock, priceCompare=[PriceCompare(price=90, source=Shopee, discountAmount=1.5, pro (truncated)...]
+2021-04-07 00:20:17,274 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-5] Completed 200 OK
+2021-04-07 00:20:17,276 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-4] Completed 200 OK
+2021-04-07 00:20:17,279 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-5] REQUEST DATA : GET /api/v1/product/2]
+2021-04-07 00:20:17,279 DEBUG o.s.w.s.FrameworkServlet:1131 [https-jsse-nio-8443-exec-10] Completed 200 OK
+2021-04-07 00:20:17,280 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-10] REQUEST DATA : GET /api/v1/product/1]
+2021-04-07 00:20:17,281 DEBUG o.s.w.f.CommonsRequestLoggingFilter:55 [https-jsse-nio-8443-exec-4] REQUEST DATA : GET /api/v1/product/3]
