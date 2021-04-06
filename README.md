@@ -2,7 +2,8 @@
 this is just a demo service with some basic requests. There are 2 services. 1 will handle product information. 2 will handle product review
 
 
-I. HIGHLIGHT FEATURES
+# I. HIGHLIGHT FEATURES
+
 	1. Requests are redirected to SSL to ensure security in data transfer
 	2. All requests/reponses have been logged in log file. Request/Responses have been well formatted using custom formatter classes, so user can easily review the log. All log files are stored in logs folder
 	3. Use thymeleaf to redirect error.html page - just for fun :)
@@ -12,7 +13,7 @@ I. HIGHLIGHT FEATURES
 	7. Use RestTemplate to call between services
 
 
-II. DEPLOYMENT STEPS
+# II. DEPLOYMENT STEPS
 	Option 1: Directly use maven to start services from projects
 		cd to service folder and run
 		mvnw spring-boot:run
@@ -30,7 +31,8 @@ II. DEPLOYMENT STEPS
 		*** Please make sure that folder keys is in the same folder with 2 jar files
 	
 			
-III. ALL CURL COMMANDS TO VERIFY 2 SERVICES
+# III. ALL CURL COMMANDS TO VERIFY 2 SERVICES
+
 	since this demo is simply get production and compare information, there is only GET request is implemented
 
 	Fetching product service
@@ -56,14 +58,23 @@ III. ALL CURL COMMANDS TO VERIFY 2 SERVICES
 		curl -v --insecure https://localhost:8444/api/v1/product-review/3
 
 
-IV. APPENDIX
+# IV. APPENDIX
 
 	Some functions are written just for demo. We need to enhance these functions in real environment
-	NO#			FUNCTION							IN DEMO																					ENHANCE NEEDED
-	1			Returned data for all requests		Prepare a pre-defined list to return to client											Update to connect to 3rd vendor to retrieve real data
-	2			getProductById						Just loop in pre-defined list															Use jpa interface such as JpaRepository to work with DB Or send request to 3rd vendor to retrieve real data
-	3			Using SSL							Get warning about certificate.															Extract SSL certificate and import to client site
-													Override current hostname verifier to bypass the SSL connection issue
+
+	1. Returned data for all requests
+	In Demo: Prepare a pre-defined list to return to client	
+	Enhancement Needed: Update to connect to 3rd vendor to retrieve real data
 	
-	4			Handling exception 					There is not many handling exception in this demo due to simple services and requests	We need to handle more exception based on the complexity of real data and service tasks.
+	2. getProductById
+	In Demo: Just loop in pre-defined list	
+	Enhancement Needed: Use jpa interface such as JpaRepository to work with DB Or send request to 3rd vendor to retrieve real data
+	
+	3. Using SSL
+	In Demo: Get warning about certificate.	Override current hostname verifier to bypass the SSL connection issue
+	Enhancement Needed: Extract SSL certificate and import to client site
+	
+	4. Handling exception
+	In Demo: There is not many handling exception in this demo due to simple services and requests
+	Enhancement Needed: We need to handle more exception based on the complexity of real data and service tasks.
 			
