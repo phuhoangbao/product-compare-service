@@ -9,7 +9,7 @@ this is just a demo service with some basic requests. There are 2 services. 1 wi
 	3. Use thymeleaf to redirect error.html page - just for fun :)
 	4. Use lombok because I am lazy to generate getter/setter	
 	5. Use Cachable annotation for better performance and reduce number to request to 3rd service (simulate backend call time (3s) by Thread.sleep to check time to respond)
-	6. Use bucket4j to limit request of user in 1 minute (currently set 5 requests/1 minute)
+	6. Use bucket4j to limit request of user in 1 minute (currently set 30 requests/1 minute)
 	7. Use RestTemplate to call between services
 
 
